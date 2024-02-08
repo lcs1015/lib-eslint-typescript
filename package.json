@@ -1,0 +1,23 @@
+{
+  "name": "lib-eslint-typescript",
+  "version": "1.0.2",
+  "description": "Pacote com regras para o eslint",
+  "main": "dist/index.js",
+  "types": "dist/indes.d.ts",
+  "scripts": {
+    "build": "tsc --declaration",
+    "dev": "nodemon --watch \"src//\" --exec \"ts-node src/index.ts\" -e ts"
+  },
+  "keywords": [
+    "eslint",
+    "rules"
+  ],
+  "author": "Lucas",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "nodemon": "^3.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
